@@ -1,5 +1,6 @@
 .navbar {
   border-radius:0;
+  height: 55px;
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
   box-shadow: 0px 1px 3px #2a2a2a;
@@ -8,9 +9,9 @@
 
 .navbar-inverse a.navbar-brand {
   font-family: "Helvetica Neue", Helvetica;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 100;
-  color:#00FFC9;
+  color:#A4D6E0;
 }
 
 .hero {
@@ -53,5 +54,14 @@ body {
   color: white;
   font-weight: 25;
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
 
+.booyah-box {
+  padding: 25px;
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #2D2E2E;
+  border: 1px solid #ccc;
+  border-color: #A4D6E0;
 }

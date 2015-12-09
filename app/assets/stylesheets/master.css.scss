@@ -11,7 +11,7 @@
   font-family: "Helvetica Neue", Helvetica;
   font-size: 40px;
   font-weight: 100;
-  color:#A4D6E0;
+  color:#13EFDB;
 }
 
 .hero {
@@ -63,5 +63,15 @@ body {
   box-shadow: 1px 1px 2px 0 #d0d0d0;
   background: #2D2E2E;
   border: 1px solid #ccc;
-  border-color: #A4D6E0;
+  border-width: 2px;
+  border-color: #13EFDB;
+}
+
+.booyah-box h2, .booyah-box h1 {
+  font-size: 60px;
+}
+
+.btn-primary {
+  background: #13EFDB;
+  color: #ffffff;
 }

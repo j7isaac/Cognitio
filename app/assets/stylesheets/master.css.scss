@@ -11,7 +11,7 @@
   font-family: "Helvetica Neue", Helvetica;
   font-size: 40px;
   font-weight: 100;
-  color:#13EFDB;
+  color:#FF5963;
 }
 
 .hero {
@@ -56,6 +56,10 @@ body {
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
 }
 
+.clr {
+  clear:both;
+}
+
 .booyah-box {
   padding: 25px;
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -64,7 +68,7 @@ body {
   background: #2D2E2E;
   border: 1px solid #ccc;
   border-width: 2px;
-  border-color: #13EFDB;
+  border-color: #FF5963;
 }
 
 .booyah-box h2, .booyah-box h1 {
@@ -72,6 +76,21 @@ body {
 }
 
 .btn-primary {
-  background: #13EFDB;
+  background: #FF5963;
   color: #ffffff;
+}
+
+.btn-success {
+  background: #FF5963;
+  color: #ffffff;
+  border-width: 0;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open > .dropdown-toggle.btn-success {
+    background: #FF5963;
+}
+
+.btn-success:active, .btn-success.active {
+    background: #FF5963;
+    box-shadow: none;
 }
